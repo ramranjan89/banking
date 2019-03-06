@@ -40,6 +40,7 @@ public class TC_02_AddNewCustomer_Test extends Base{
 		nc.set_mobile_no("9108411969");
 		log.info("mobile no enterd..................");
 		nc.set_email("ranjanjha89.rr@gmail.com");
+		log.info("email entered");
 		nc.set_password(password);
 		nc.submit_button();
 		
