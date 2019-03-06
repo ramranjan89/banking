@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [banking]">
+	<test name="banking app test(failed)">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.banking.test.TC_01_loginTest">
+				<methods>
+					<include name="setup" />
+					<include name="loginTest" />
+				</methods>
+			</class> <!-- com.banking.test.TC_01_loginTest -->
+		</classes>
+	</test> <!-- banking app test(failed) -->
+</suite> <!-- Failed suite [banking] -->
