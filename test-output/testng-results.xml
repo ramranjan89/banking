@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25568" started-at="2019-02-23T09:02:37Z" finished-at="2019-02-23T09:03:02Z">
+  <suite name="Default suite" duration-ms="49397" started-at="2019-03-11T15:03:35Z" finished-at="2019-03-11T15:04:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25568" started-at="2019-02-23T09:02:37Z" finished-at="2019-02-23T09:03:02Z">
-      <class name="test.TC_03_Ammount_Deposit_test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.TC_03_Ammount_Deposit_test@464bee09]" name="setup" is-config="true" duration-ms="5212" started-at="2019-02-23T14:32:37Z" finished-at="2019-02-23T14:32:42Z">
+    <test name="Default test" duration-ms="49397" started-at="2019-03-11T15:03:35Z" finished-at="2019-03-11T15:04:25Z">
+      <class name="test.TC_01_loginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TC_01_loginTest@464bee09]" name="setup" is-config="true" duration-ms="13458" started-at="2019-03-11T20:33:36Z" finished-at="2019-03-11T20:33:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="amountdepoit_test()[pri:0, instance:test.TC_03_Ammount_Deposit_test@464bee09]" name="amountdepoit_test" duration-ms="15010" started-at="2019-02-23T14:32:42Z" finished-at="2019-02-23T14:32:57Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:test.TC_01_loginTest@464bee09]" name="loginTest" duration-ms="30170" started-at="2019-03-11T20:33:49Z" finished-at="2019-03-11T20:34:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amountdepoit_test -->
-        <test-method status="PASS" signature="tearDownn()[pri:0, instance:test.TC_03_Ammount_Deposit_test@464bee09]" name="tearDownn" is-config="true" duration-ms="5308" started-at="2019-02-23T14:32:57Z" finished-at="2019-02-23T14:33:02Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDownn()[pri:0, instance:test.TC_01_loginTest@464bee09]" name="tearDownn" is-config="true" duration-ms="5417" started-at="2019-03-11T20:34:19Z" finished-at="2019-03-11T20:34:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownn -->
-      </class> <!-- test.TC_03_Ammount_Deposit_test -->
+      </class> <!-- test.TC_01_loginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

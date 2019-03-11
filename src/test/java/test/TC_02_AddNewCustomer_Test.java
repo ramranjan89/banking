@@ -42,6 +42,7 @@ public class TC_02_AddNewCustomer_Test extends Base{
 		nc.set_email("ranjanjha89.rr@gmail.com");
 		log.info("email entered");
 		nc.set_password(password);
+		log .info("password enterd");
 		nc.submit_button();
 		
 		Thread.sleep(5000);
